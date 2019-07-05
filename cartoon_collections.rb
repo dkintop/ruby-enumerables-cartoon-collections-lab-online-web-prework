@@ -57,7 +57,7 @@ def find_the_cheese (array)
     
     
     cheese_types.length.times do |index|
-     a = cheese_types.include?(n)
+     a = cheese_types[index] == n 
      
       if a == true && cheese_found == nil
         cheese_found = cheese_types[index]
