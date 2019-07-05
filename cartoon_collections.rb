@@ -55,7 +55,6 @@ def find_the_cheese (array)
 
   array.each do |n|
     
-    
     cheese_types.length.times do |index|
      a = cheese_types[index] == n 
      
